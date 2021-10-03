@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>REST API</title>
+  <script src="javascripts/funcs.js"></script>
+</head>
+
+<body>
+  <h1>Rest API template</h1>
+  <p>This example only gives you a "template" to implement REST services. Open the inspector to trace the HTTP requests.
+    </p>
+  <p>You  need to write the code that does the real work on the <b>server side</b>  !</p>
+<p>It shows some very simple client code to call the server side REST API.</p>
+<ol>
+    <p>A GET  REST API request: <a href="/api/resources/milk">getting an item </a>.</p>
+
+    <form action="/api/resources" method="post" id="theform">
+      type something: <input type="text" name="prodname" id="prodname"><br/>
+      <input type="submit" value="post example to rest API (type something in the input text)"><br/><br/>
+      <input type="button" value="delete example to rest API" id="delete_button"><br/><br/>
+      <input type="button" value="put example to rest API" id="put_button"><br/><br/>
+
+    </form>
+
+  </li>
+
+  <div id="data"></div>
+</ol>
+</body>
+
+</html>
